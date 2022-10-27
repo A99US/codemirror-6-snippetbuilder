@@ -21,9 +21,9 @@ And then you feed CodeMirror 6 extension with an array built by this function. F
 
 ```javascript
 javascriptLanguage.data.of({
-	autocomplete: snippetbuilder({
-		source: jssnippetarray 
-	})
+  autocomplete: snippetbuilder({
+    source: jssnippetarray 
+  })
 })
 ```
 	
@@ -63,20 +63,20 @@ snippetbuilder({
 })
 ```
 
-**Source**
+**Source :** 
 Snippet array to be converted. 
 
-**Description** 
+**Description :** 
 Whether description should be added to the snippet popup or not. Default true, if description is present in the source array.
 
- **Scope**
+ **Scope :** 
  If set, function will filter to only include snippet that is in the scope. Only usable if source array has *scope* index. Filter by *scopes.includes(scope)*.
  For example, if you only want to use snippet of react :
  
 ```javascript
 snippetbuilder({
-	source: jssnippetarray,
-	scope: 'javascriptreact'
+  source: jssnippetarray,
+  scope: 'javascriptreact'
 })
 ```
 
@@ -97,7 +97,7 @@ With the following array source, will only add *javascriptreact* to snippet.
 }
 ```
 
- **Prefix**
+ **Prefix :** 
 Add prefix to snippet popup. Will be part of snippet keyword. Default *null*.
 
 ## To-Do List
