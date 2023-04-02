@@ -1,3 +1,7 @@
+/*
+https://github.com/A99US/codemirror-6-snippetbuilder
+*/
+
 import { snippetCompletion } from "@codemirror/autocomplete"
 
 export default function snippetbuilder(data){
