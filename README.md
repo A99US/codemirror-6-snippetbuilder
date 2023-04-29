@@ -5,10 +5,16 @@ This is a function for CodeMirror 6 to convert a standard array of snippet (like
 
 ## How To Use
 
-First you need to import the function :
+First you need to add the extension :
+
+```console
+npm i codemirror-6-snippetbuilder
+```
+
+And then import the function :
 
 ```javascript
-import snippetbuilder from './snippet.js'
+import snippetbuilder from 'codemirror-6-snippetbuilder'
 ```
 
 You also need a *'normal'* snippet array to be converted by the function. For example, this one will come from a file : 
