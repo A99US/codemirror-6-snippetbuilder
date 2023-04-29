@@ -1,6 +1,6 @@
 {
   "name": "codemirror-6-snippetbuilder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Function for CodeMirror 6 to convert a standard array of snippet and turn it into snippet array that is ready to use in CodeMirror 6 extension",
   "main": "snippet.js",
   "scripts": {
